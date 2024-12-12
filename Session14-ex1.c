@@ -5,6 +5,6 @@ int main() {
     printf("Nhap chuoi: ");
     fgets(str, 100, stdin);  
     printf("Chuoi ban vua nhap la: %s\n", str);
-    printf("Do dai chuoi ban nhap la: %d\n", strlen(str)-1);   
+    printf("Do dai chuoi ban nhap la: %d\n", strlen(str));   
     return 0;
 }
